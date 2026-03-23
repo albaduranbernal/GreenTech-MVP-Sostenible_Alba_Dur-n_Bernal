@@ -9,9 +9,9 @@
 
   ### 2. ¿Cómo lo he arreglado? 
  -He borrado todos los frameworks pesados 
--Ahora el navegador no tiene que leer miles de líneas de código extra.
-- He configurado las imágenes para que solo se descarguen si el usuario llega a verlas, lo que se llama lazy loading 
--He quitado scripts que solo servían para poner la fecha, usando una sola línea de código simple
+ -Ahora el navegador no tiene que leer miles de líneas de código extra.
+ - He configurado las imágenes para que solo se descarguen si el usuario llega a verlas, lo que se llama lazy loading 
+ -He quitado scripts que solo servían para poner la fecha, usando una sola línea de código simple
 
 ### 3. ¿Por qué esto ayuda al medio ambiente?
 Mi código ahora respeta la Economía Circular mediante un ahorro de energía, como la web pesa menos, los servidores y las redes gastan menos electricidad al enviarla.Además
