@@ -3,8 +3,11 @@
   ------------------------------------------------
   ### 1. ¿Qué pasaba con la web original?
   La página anterior era un desastre para el planeta por varias razones:
+  
   -Pesaba demasiado: Usaba librerías gigantes solo para poner un botón verde.
+  
   -Gastaba mucha batería: Al tener código innecesario, los móviles tenían que trabajar de más y se calentaban.
+  
   -Consumía muchos datos: Obligaba al usuario a gastar su tarifa de datos en descargar cosas que no servían para nada
 
   ### 2. ¿Cómo lo he arreglado? 
