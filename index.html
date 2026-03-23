@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvemos el Planeta | GreenTech</title>
+    <style>
+        /* CSS Nativo: Cero dependencias externas */
+        :root {
+            --green-primary: #28a745;
+            --green-dark: #1e7e34;
+            --bg-light: #f4fdf4;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif; /* Fuente del sistema: 0KB de carga */
+            background-color: var(--bg-light);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .hero {
+            /* Optimización: Imagen reducida y carga prioritaria */
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .btn-eco {
+            background-color: var(--green-primary);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            border: 2px solid var(--green-dark);
+            cursor: pointer;
+            transition: transform 0.2s;
+            text-decoration: none;
+        }
+        .btn-eco:hover { transform: scale(1.05); }
+        footer {
+            background: #212529;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <main class="hero">
+        <h1>Salvemos el Planeta</h1>
+        <p>Únete a la revolución verde de GreenTech.</p>
+        <a href="#" class="btn-eco"> Quiero ayudar</a>
+    </main>
+    <footer>
+        GreenTech Solutions &copy; <span id="year"></span> - Software Responsable
+    </footer>
+</body>
+</html>
